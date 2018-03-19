@@ -9,7 +9,7 @@ except ImportError:
 
 
 def read(filename):
-    return open(os.path.join(os.path.dirname(__file__), filename)).read()
+    return open(os.path.join(os.path.dirname(__file__), filename), 'rb').read()
 
 setup(
     name='apfake',

@@ -3,7 +3,7 @@ from copy import deepcopy
 def generate_stepping(final_results, step, number):
     """
     Requires an AP API JSON file from &results=ru
-    Does not work on initialization data.
+    Does not work on initialization data.d
     """
     results = deepcopy(final_results)
 
