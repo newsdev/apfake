@@ -1,5 +1,7 @@
 # APFAKE
 
+![screen shot 2018-03-19 at 10 21 06 am](https://user-images.githubusercontent.com/109988/37601020-67598cd4-2b5f-11e8-9bfc-be939317eb46.png)
+
 Have you ever thought "I should record the AP API test that's coming in a half hour" only to find out that it actually concluded a half hour AGO? I've done this several times. And if I've done it before, I have to assume others have done it as well.
 
 Taking the FINAL JSON state file of an AP API election test (e.g., what happens if you hit the test URL after a test has run but before it's zeroed out in the moments before a new test or a live election), `apfake` will generate a file of zeros and then `n` intermediate states between the zeros and the final file with a smoothly incrementing set of votes.
