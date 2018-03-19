@@ -1,0 +1,5 @@
+*.pyo
+*.pyc
+data/*.json
+*.json
+*.egg-info
