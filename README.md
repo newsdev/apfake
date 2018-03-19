@@ -15,6 +15,13 @@ In short: If you give it the last file of a test, `apfake` will generate all the
 * `apfake` does not work on zeros or initialization data. It needs the format `&results=ru` from the AP API.
 
 ## USAGE
+### Installing
+`apfake` is easiest to install straight from PyPi.
+```
+pip install apfake
+```
+
+### Using
 ```
 apfake -f 2018-03-20-final.json -n 10 -d /tmp/foo/ -r 2018-03-20
 ```

@@ -9,7 +9,7 @@ except ImportError:
 
 
 def read(filename):
-    return open(os.path.join(os.path.dirname(__file__), filename), 'rb').read()
+    return open(os.path.join(os.path.dirname(__file__), filename), 'r').read()
 
 setup(
     name='apfake',
@@ -19,7 +19,7 @@ setup(
     url='https://github.com/newsdev/apfake',
     description='Command-line interface for extrapolating test data from a single AP API JSON file.',
     long_description=read('README.rst'),
-    packages=('apfake',),
+    packages=['apfake'],
     entry_points={
         'console_scripts': (
             'apfake = apfake:main',
