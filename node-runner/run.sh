@@ -1,0 +1,1 @@
+FILE=/tmp/results_national_2018-04-24.json DATE=2018-04-24 docker-compose up

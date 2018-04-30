@@ -1,0 +1,16 @@
+version: "3.6"
+services:
+  apfake:
+    image: python
+    build: .
+    volumes:
+      - /tmp:/tmp
+    environment:
+      - FILE
+      - DATE
+    command: "
+      apfake \ 
+        --final-results-path ${FILE} \
+        --number 10 \
+        --racedate ${DATE}
+    "
