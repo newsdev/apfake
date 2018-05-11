@@ -69,7 +69,8 @@ def setup():
         final_results_path = args.final_results_path
 
     if not args.racedate:
-        match = re.match('([0-9]{4}-[0-9]{2}-[0-9]{2})', final_results_path)
+        final_results_name = os.path.splitext(os.path.basename(final_results_path))[0]
+        match = re.match(r'(\d{4}-\d{2}-\d{2})', final_results_name)
         if match:
             racedate = match.group(1)
         else:
