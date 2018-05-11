@@ -16,7 +16,7 @@ In short: If you give it the last file of a test, `apfake` will generate all the
 
 ## USAGE
 ### Installing
-`apfake` is easiest to install straight from PyPi.
+`apfake` is easiest to install straight from PyPi. It requires a Python 3 environment.
 ```
 pip install apfake
 ```
