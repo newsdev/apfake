@@ -11,12 +11,13 @@ def read(filename):
 
 setup(
     name='apfake',
-    version='0.0.1',
+    version='0.0.2',
     author='Jeremy Bowers',
     author_email='jeremy.bowers@nytimes.com',
     url='https://github.com/newsdev/apfake',
     description='Command-line interface for extrapolating test data from a single AP API JSON file.',
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     packages=['apfake'],
     entry_points={
         'console_scripts': (
