@@ -1,6 +1,4 @@
 import os.path
-from pip.download import PipSession
-from pip.req import parse_requirements
 
 try:
     from setuptools import setup
@@ -27,7 +25,9 @@ setup(
     },
     license="Apache License 2.0",
     keywords='election race candidate democracy news associated press',
-    install_requires=['ujson==1.35'],
+    install_requires=[
+        'ujson==1.35'
+    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
