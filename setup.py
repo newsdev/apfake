@@ -27,7 +27,7 @@ setup(
     license="Apache License 2.0",
     keywords='election race candidate democracy news associated press',
     install_requires=[
-        'ujson==1.35'
+        'ujson==5.2.0'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
